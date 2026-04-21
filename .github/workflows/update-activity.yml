@@ -1,0 +1,39 @@
+name: Update README Activity
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh recent activity
+        uses: actions/github-script@v9
+        env:
+          TARGET_FILE: README.md
+          MAX_LINES: "8"
+          EXCLUDED_REPO: ${{ github.repository }}
+          EVENT_TYPES: IssueCommentEvent,IssuesEvent,PullRequestEvent,ReleaseEvent
+        with:
+          script: |
+            await require('./.github/scripts/update-readme-activity.js')({ github, context, core });
+
+      - name: Commit README changes
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README is already up to date"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update recent activity"
+          git push

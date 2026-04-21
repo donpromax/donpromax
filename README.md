@@ -27,7 +27,7 @@
 
 ---
 
-#### ⚡ Recent Activity
+#### ⚡ Recent Activity (Past Year)
 
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#8465](https://github.com/vllm-project/vllm-ascend/pull/8465) in [vllm-project/vllm-ascend](https://github.com/vllm-project/vllm-ascend)

@@ -30,9 +30,7 @@
 #### ⚡ Recent Activity (Past Year)
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#8465](https://github.com/vllm-project/vllm-ascend/pull/8465) in [vllm-project/vllm-ascend](https://github.com/vllm-project/vllm-ascend)
-2. 🎉 Merged PR [#43](https://github.com/stepfun-ai/SteptronOss/pull/43) in [stepfun-ai/SteptronOss](https://github.com/stepfun-ai/SteptronOss)
+1. ℹ️ Merged PR [#8465](https://github.com/vllm-project/vllm-ascend/pull/8465) in [vllm-project/vllm-ascend](https://github.com/vllm-project/vllm-ascend)
+2. ℹ️ Merged PR [#43](https://github.com/stepfun-ai/SteptronOss/pull/43) in [stepfun-ai/SteptronOss](https://github.com/stepfun-ai/SteptronOss)
 3. 💪 Opened PR [#43](https://github.com/stepfun-ai/SteptronOss/pull/43) in [stepfun-ai/SteptronOss](https://github.com/stepfun-ai/SteptronOss)
-4. ⬆️ Pushed undefined commit(s) to [donpromax/donpromax](https://github.com/donpromax/donpromax)<br>
-5. ⬆️ Pushed undefined commit(s) to [donpromax/donpromax](https://github.com/donpromax/donpromax)<br>
 <!--END_SECTION:activity-->
